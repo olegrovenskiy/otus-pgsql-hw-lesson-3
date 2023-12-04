@@ -16,6 +16,13 @@ done
 
 сделать каталог /var/lib/postgres
 
+        [root@mck-network-test ~]# cd /var/lib/postgres
+        [root@mck-network-test postgres]# ls -l
+        total 0
+        [root@mck-network-test postgres]#
+
+done
+
 развернуть контейнер с PostgreSQL 15 смонтировав в него /var/lib/postgresql
 
 развернуть контейнер с клиентом postgres
