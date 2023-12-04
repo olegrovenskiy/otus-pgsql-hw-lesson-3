@@ -1,6 +1,7 @@
 # otus-pgsql-hw-lesson-3
 
 создать ВМ с Ubuntu 20.04/22.04 или развернуть докер любым удобным способом
+Работаю с Centos 7.0 так как использовал корпоративный стандартный образ. Ubuntu запрещён в компании.
 поставить на нем Docker Engine
 
 Установил в соответствии from official docks https://docs.docker.com/engine/install/centos/
