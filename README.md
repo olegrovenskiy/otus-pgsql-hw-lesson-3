@@ -1,10 +1,10 @@
 # otus-pgsql-hw-lesson-3
 
-создать ВМ с Ubuntu 20.04/22.04 или развернуть докер любым удобным способом
-Работаю с Centos 7.0 так как использовал корпоративный стандартный образ. Ubuntu запрещён в компании.
-поставить на нем Docker Engine
 
-## 1.   Установка
+Работаю с Centos 7.0 так как использовал корпоративный стандартный образ. Ubuntu запрещён в компании.
+
+
+## 1.   Установка Docker
 
 Установил в соответствии from official docks https://docs.docker.com/engine/install/centos/
 
@@ -59,13 +59,14 @@ done
         [root@mck-network-test data]#
 
 
-
+До запуска контейнера каталог пуст
 
         [root@mck-network-test lib]# cd ./postgres/
         [root@mck-network-test postgres]#
         [root@mck-network-test postgres]# ls -l
         total 0
 
+После запуска контейнера с сервером БД каталог наполнился данными
 
         [root@mck-network-test postgres]# ls -l
         total 64
@@ -219,7 +220,7 @@ The connection to the server was lost. Attempting reset: Failed.
         (2 rows)
         
         postgres=#
-
+Да, данные сохранились, это видно и через PgAdmin клиентом в докере
 
 ## 10.    оставляйте в ЛК ДЗ комментарии что и как вы делали и как боролись с проблемами
 
