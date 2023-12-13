@@ -4,7 +4,9 @@
 Работаю с Centos 7.0 так как использовал корпоративный стандартный образ. Ubuntu запрещён в компании.
 поставить на нем Docker Engine
 
-## 1.    Установил в соответствии from official docks https://docs.docker.com/engine/install/centos/
+## 1.   Установка
+
+Установил в соответствии from official docks https://docs.docker.com/engine/install/centos/
 
     [root@mck-network-test ~]# systemctl start docker
     [root@mck-network-test ~]# docker --version
