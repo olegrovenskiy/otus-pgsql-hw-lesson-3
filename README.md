@@ -142,10 +142,8 @@ done
 
 Подключился Из PgAdmin и убедился что есть созданная таблица
 
-скриншота dashboard
 
-
-![dashboard](https://github.com/olegrovenskiy/otus-pgsql-hw-lesson-3/blob/main/1.png)
+![PgAdmin](https://github.com/olegrovenskiy/otus-pgsql-hw-lesson-3/blob/main/1.png)
 
 
 ## 7.    удалить контейнер с сервером
